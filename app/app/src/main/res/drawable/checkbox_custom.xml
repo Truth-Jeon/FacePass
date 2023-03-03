@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Unchecked -->
+    <item android:state_checked="false">
+        <layer-list>
+            <!-- 이미지 영역 -->
+            <item android:drawable="@drawable/common_chk_light" android:top="4dp" android:right="4dp" android:bottom="4dp" android:left="4dp" />
+        </layer-list>
+    </item>
+    <!-- Checked -->
+    <item android:state_checked="true">
+        <layer-list>
+            <!-- 이미지 영역 -->
+            <item android:drawable="@drawable/common_chk_active_gn" android:top="4dp" android:right="4dp" android:bottom="4dp" android:left="4dp" />
+        </layer-list>
+    </item>
+</selector>
